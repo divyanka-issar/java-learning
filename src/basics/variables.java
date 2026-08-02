@@ -1,10 +1,7 @@
 package basics;
 
-/**
- * Topic: Variables
- * Description: Understanding declaration, initialization
- * and usage of variables in java.
- */
+// Topic: Variables
+// Description: Understanding declaration, initialization and usage of variables in java.
 
 public class variables {
     public static void main(String[] args){
