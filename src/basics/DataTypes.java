@@ -1,10 +1,7 @@
 package basics;
 
-/**
- * Topic: Data Types
- * Description: Understanding Java data types and 
- * how different types of values are stored.
- */
+// Topic: Data Types
+// Description: Understanding data types and how different types of values are stored.
 
 public class DataTypes{
     public static void main(String[] args){
