@@ -17,6 +17,7 @@ public class Operators {
 
         // Assignment Operator
         int num = 16;
+        System.out.println("Assignment operators");
         num +=5;
         System.out.println("After +=5:" + num);
         num -=2;
@@ -27,5 +28,19 @@ public class Operators {
         System.out.println("After /=4:" + num);
         num %=7;
         System.out.println("After %=7:" + num);
+        System.out.println();
+
+        // Relational Operators
+        int a = 16;
+        int b = 38;
+        System.out.println("Relational Operators");
+        System.out.println("a > b:" + (a>b));
+        System.out.println("a < b:" + (a<b));
+        System.out.println("a >= b:" + (a>=b));
+        System.out.println("a >= b:" + (a>=b));
+        System.out.println("a == b:" + (a==b));
+        System.out.println("a != b:" + (a!=b));
+        System.out.println();
+
     }
 }
