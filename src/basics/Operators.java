@@ -1,5 +1,8 @@
 package basics;
 
+// Topic: Operators
+// Description: Understanding different types of operators in Java.
+
 public class Operators {
     public static void main(String[] args){
 
