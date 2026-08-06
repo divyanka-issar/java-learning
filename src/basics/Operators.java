@@ -42,5 +42,16 @@ public class Operators {
         System.out.println("a != b:" + (a!=b));
         System.out.println();
 
+        // Logical Operators
+        boolean java = false;
+        boolean dsa = true;
+        System.out.println("Java:" + java);
+        System.out.println("Dsa:" + dsa);
+        System.out.println("Java && Dsa :" + (java && dsa));
+        System.out.println("Java || Dsa :" + (java || dsa));
+        System.out.println("!Java :" + (!java));
+        System.out.println("!Dsa :" + (!dsa));
+        System.out.println();
+
     }
 }
