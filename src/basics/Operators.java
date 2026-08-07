@@ -58,5 +58,12 @@ public class Operators {
         System.out.println("!Dsa :" + (!dsa));
         System.out.println();
 
+        // Ternary Operators
+        int number = 10;
+        String result = (number % 2 == 0)? "even" : "odd";
+        System.out.println("Ternary Operator");
+        System.out.println("Number: " + number);
+        System.out.println("Result: " + result);
+        System.out.println();
     }
 }
