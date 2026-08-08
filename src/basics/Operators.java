@@ -65,5 +65,18 @@ public class Operators {
         System.out.println("Number: " + number);
         System.out.println("Result: " + result);
         System.out.println();
+
+        // Unary Operators
+        int marks = 15;
+        System.out.println("Unary Operators");
+        System.out.println("Initial value : " + marks);
+        System.out.println("Post Increment : " + marks++);
+        System.out.println("After increment : " + marks);
+        System.out.println("Pre Increment : " + ++marks);
+        System.out.println("Post Decrement : " + marks--);
+        System.out.println("After Decrement : " + marks);
+        System.out.println("Pre Decrement : " + --marks);
+        System.out.println();
+
     }
 }
