@@ -9,8 +9,8 @@ public class Operators {
         // Arithmetic Operators
         int num1 = 20;
         int num2 = 6;
-        System.out.println("Arithmetic Operators");
 
+        System.out.println("Arithmetic Operators");
         System.out.println("Addition:" + (num1 + num2));
         System.out.println("Subtraction:" + (num1 - num2));
         System.out.println("Multiplication:" + (num1 * num2));
@@ -20,6 +20,7 @@ public class Operators {
 
         // Assignment Operator
         int num = 16;
+
         System.out.println("Assignment operators");
         num +=5;
         System.out.println("After +=5:" + num);
@@ -36,6 +37,7 @@ public class Operators {
         // Relational Operators
         int a = 16;
         int b = 38;
+
         System.out.println("Relational Operators");
         System.out.println("a > b:" + (a>b));
         System.out.println("a < b:" + (a<b));
@@ -61,6 +63,7 @@ public class Operators {
         // Ternary Operators
         int number = 10;
         String result = (number % 2 == 0)? "even" : "odd";
+
         System.out.println("Ternary Operator");
         System.out.println("Number: " + number);
         System.out.println("Result: " + result);
@@ -68,6 +71,7 @@ public class Operators {
 
         // Unary Operators
         int marks = 15;
+
         System.out.println("Unary Operators");
         System.out.println("Initial value : " + marks);
         System.out.println("Post Increment : " + marks++);
