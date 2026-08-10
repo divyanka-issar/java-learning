@@ -1,5 +1,8 @@
 package basics;
 
+// Topic: Input using Scanner
+// description: Understanding how to take user input using Scanner class.
+
 import java.util.Scanner;
 public class UserInput {
     public static void main(String[] args){
@@ -16,7 +19,7 @@ public class UserInput {
 
         System.out.println("\nName : " + name);
         System.out.println("Age : " + age);
-        System.out.println("CGPAD : " + CGPA);
+        System.out.println("CGPA : " + CGPA);
 
         input.close();
     }
