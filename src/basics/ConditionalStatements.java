@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class ConditionalStatements {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+
+        // If statement
         System.out.println("Enter your age: ");
         int age = input.nextInt();
 
