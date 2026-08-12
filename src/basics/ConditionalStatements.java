@@ -15,6 +15,16 @@ public class ConditionalStatements {
         if(age>=18){
             System.out.println("You are eligible to vote");
         }
+
+        // If-else statement
+        System.out.println("Enter a number : ");
+        int number = input.nextInt();
+        if(number % 2 == 0){
+            System.out.println("The number is even");
+        }
+        else {
+            System.out.println("The number is odd");
+        }
         input.close();
     }
 }
